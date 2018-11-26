@@ -1,0 +1,16 @@
+@media screen and (max-width: 980px){
+
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+
+    #masthead {
+        width: 100%;
+    }
+
+    nav a {
+        margin-right: 15px;
+    }
+
+}

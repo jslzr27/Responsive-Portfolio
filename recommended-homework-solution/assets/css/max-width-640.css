@@ -1,0 +1,48 @@
+/*@Media Tags*/
+
+@media screen and (max-width: 640px){
+    body {
+        max-width: 640px;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 640px;
+        margin: 0;
+      }
+  
+    #masthead {
+        float: none; 
+        clear: both; 
+        position: static; 
+    }
+    
+    #logo { 
+        margin: 0; 
+        width: 100%;
+    }
+
+        
+    nav {
+    }
+
+    nav a {
+    }
+
+    #main-container {
+        padding-top: 0;
+    }
+     .main-section {
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+
+    .auth-image {
+        width: 100%;
+        float: none;
+    }
+
+    .work {
+        width: 100%;
+    }
+}
