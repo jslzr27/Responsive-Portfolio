@@ -7,3 +7,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  var linkedIn = document.querySelectorAll('#linkedin');
+  var github = document.querySelectorAll('#github');

@@ -215,3 +215,10 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 } */
+
+.nav-wrapper{
+  background-color: darkcyan;
+}
+.page-footer{
+  background-color: darkcyan;
+}
