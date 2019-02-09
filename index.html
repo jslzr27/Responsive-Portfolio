@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Jesus Salazar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/max-width-980.css">
   <link rel="stylesheet" type="text/css" href="assets/css/max-width-768.css">
@@ -12,33 +15,33 @@
 </head>
 
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Jesus Salazar</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+<div id="main-container" class="container">
+  <div class="container">
+    <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo">Jesus Salazar</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li class="active"><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
+</div>
 
-  <div id="main-container" class="container">
+  <div id="content-container" class="container">
     <section class="main-section">
       <h1>About Me</h1>
 
-      <!--<img src="C:\Users\jslzr\Desktop\Responsive-Portfolio\recommended-homework-solution\assets\images\IMG-0308.JPG"
-        class="auth-image" alt="Your Name">-->
       <img src="https://github.com/jslzr27/Responsive-Portfolio/blob/master/assets/images/IMG-0308.JPG?raw=true"
-        class="auth-image" alt="Your Name">
-        <p>My name is Jesus Rafael Salazar, I am 22 years old and live in Kissimmee, Florida with my
+        class="responsive-img" id="auth-image" alt="Your Name">
+        <p class="flow-text">My name is Jesus Rafael Salazar, I am 22 years old and live in Kissimmee, Florida with my
           family.</p>
 
-      <p>I was born and raised in a small town of Venezuela called Cumana on August 27,
+      <p class="flow-text">I was born and raised in a small town of Venezuela called Cumana on August 27,
           1996.</p>
 
-      <p>I love sports and play soccer regularly. I have always been interested to
+      <p class="flow-text">I love sports and play soccer regularly. I have always been interested to
           technology and the great inventions of humankind. I like to learn how things work
           and experiment with them. I love new challenges and this is why I am pursuing
           coding to learn about technology, create new things and challenge myself.</p>
@@ -47,11 +50,33 @@
 
   </div>
 
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
+  <div class="container">
+    <footer class="page-footer">
+        <div class="container">
+          <div class="footer-copyright">
+              <div class="container">
+              © 2019 Copyright
+              </div>
+            </div>
+        </div>
+    </footer>
+  </div>
+
+  <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">mode_edit</i>
+      </a>
+      <ul>
+        <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+      </ul>
+  </div>
+
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./assets/javascript/app.js"></script>
 </body>
 
 </html>

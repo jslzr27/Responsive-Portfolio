@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
@@ -12,7 +12,7 @@ body {
 
 /* general */
 
-.container {
+/* .container {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -28,8 +28,8 @@ p {
 
 p:last-child {
   margin-bottom: 0;
-}
-
+} */
+/* 
 h1,
 h2,
 h3 {
@@ -48,11 +48,11 @@ h1 {
 h2,
 h3 {
   font-size: 22px;
-}
+}  */
 
 /* header */
 
-#masthead {
+/* #masthead {
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -61,9 +61,9 @@ h3 {
   color: #fff;
   background: #fff;
   border-bottom: 2px solid #ccc;
-}
+} */
 
-#logo {
+/* #logo {
   float: left;
   width: 250px;
   height: 90px;
@@ -75,14 +75,14 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #4aaaa5;
-}
+} */
 
-nav {
+/* nav {
   float: right;
   margin-top: 25px;
-}
+} */
 
-nav a {
+/* nav a {
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
@@ -90,15 +90,15 @@ nav a {
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
-}
+} */
 
-nav a:first-child {
+/* nav a:first-child {
   border-left: 0 none;
-}
+} */
 
 /* footer */
 
-footer {
+/* footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
@@ -115,11 +115,11 @@ h3, h2 {
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eee;
-}
+} */
 
 /* main */
 
-#main-container {
+/* #content-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
 }
@@ -132,10 +132,10 @@ h3, h2 {
   margin: 0 0 40px;
   background: #fff;
   border: 1px solid #ddd;
-}
+} */
 
 /* portfolio page */
-
+/* 
 .work {
   position: relative;
   float: left;
@@ -166,18 +166,18 @@ h3, h2 {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
-}
+} */
 
-.auth-image {
+/* .auth-image {
   float: left;
   width: 200px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
-}
+} */
 
 /* contact page */
-
+/* 
 #contact-form ul {
   margin-bottom: 20px;
 }
@@ -214,4 +214,4 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
-}
+} */
