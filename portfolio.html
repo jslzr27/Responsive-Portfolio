@@ -9,9 +9,9 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/max-width-980.css">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/max-width-980.css">
   <link rel="stylesheet" type="text/css" href="assets/css/max-width-768.css">
-  <link rel="stylesheet" type="text/css" media="only screen and (max-width: 640px)" href="assets/css/max-width-640.css">
+  <link rel="stylesheet" type="text/css" media="only screen and (max-width: 640px)" href="assets/css/max-width-640.css"> -->
 </head>
 
 <body>
@@ -20,11 +20,18 @@
       <nav>
         <div class="nav-wrapper">
           <a href="index.html" class="brand-logo">Jesus Salazar</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="index.html">About</a></li>
             <li class="active"><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a>
             </li>
+          </ul>
+
+          <ul class="sidenav" id="mobile-demo">
+              <li><a href="index.html">About</a></li>
+              <li class="active"><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -145,7 +152,7 @@
   </div>
 
   <div class="fixed-action-btn">
-    <a class="btn-floating btn-large cyan darken-3">
+    <a class="btn-floating btn-large mycolor">
       <i class="large material-icons">add</i>
     </a>
     <ul>

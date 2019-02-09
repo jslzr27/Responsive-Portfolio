@@ -168,13 +168,13 @@ h3, h2 {
   border-bottom: 0;
 } */
 
-/* .auth-image {
+#auth-image {
   float: left;
   width: 200px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
-} */
+} 
 
 /* contact page */
 /* 
@@ -216,13 +216,29 @@ input[type=submit] {
   border: 0 none;
 } */
 
+
 .nav-wrapper{
-  background-color: darkcyan;
+  background-color: #4cb5f5;
 }
 .page-footer{
-  background-color: darkcyan;
+  background-color: #b3c100;
+}
+
+.btn{
+  background-color: #34675c;
+}
+
+.btn:hover{
+  background-color: #b7b8b6;
 }
 
 a{
   color: black;
+}
+
+.mycolor{
+  background-color: #34675c;
+}
+.mycolor:hover{
+  background-color: #343434;
 }
