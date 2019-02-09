@@ -222,3 +222,7 @@ input[type=submit] {
 .page-footer{
   background-color: darkcyan;
 }
+
+a{
+  color: black;
+}

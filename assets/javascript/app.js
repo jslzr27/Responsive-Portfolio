@@ -9,3 +9,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   var linkedIn = document.querySelectorAll('#linkedin');
   var github = document.querySelectorAll('#github');
+
+  $(linkedIn).on("click", function() {
+      window.open("https://www.linkedin.com/in/jesus-salazar-484837173/");
+  })
+
+  $(github).on("click", function() {
+    window.open("https://github.com/jslzr27");
+})
